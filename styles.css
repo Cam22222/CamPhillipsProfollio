@@ -1,0 +1,14 @@
+.cursor {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    pointer-events: none;
+    transition: left top .1s ease-in-out;
+    z-index: 1233333;
+    background-image: url(cursor.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: cursorAnim 10s linear infinite;
+}
