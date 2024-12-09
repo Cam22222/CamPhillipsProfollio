@@ -1,14 +1,69 @@
-.cursor {
-    width: 8rem;
-    height: 8rem;
-    position: absolute;
-    top: 40%;
-    right: 20%;
-    pointer-events: none;
-    transition: left top .1s ease-in-out;
-    z-index: 1233333;
-    background-image: url(cursor.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    animation: cursorAnim 10s linear infinite;
-}
+     body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #f4f4f9;
+
+        }
+
+        header {
+
+            background-color: #4CAF50;
+
+            color: white;
+
+            padding: 20px;
+
+            text-align: center;
+
+        }
+
+        section {
+
+            padding: 20px;
+
+            margin: 20px;
+
+            background-color: white;
+
+            border-radius: 8px;
+
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        }
+
+        h1 {
+
+            font-size: 36px;
+
+        }
+
+        p {
+
+            font-size: 18px;
+
+        }
+
+        ul {
+
+            list-style-type: none;
+
+        }
+
+        ul li {
+
+            font-size: 18px;
+
+        }
+
+        img {
+
+            width: 200px;
+
+            border-radius: 10px;
+
+        }
